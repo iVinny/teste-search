@@ -1,0 +1,16 @@
+{
+  "name": "vw-base-style",
+  "version": "0.2.2",
+  "description": "Styles, Fonts e Assets de base para projetos da VW",
+  "style": "src/styles/_vw-base.scss",
+  "sass": "src/styles/_vw-base.scss",
+  "author": "Bruno Germano <bruno.germano@oninteractive.com.br>",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "node-sass": "^4.7.2"
+  },
+  "dependencies": {
+    "bulma": "^0.6.1",
+    "sass-responsive": "https://github.com/egermano/sass-responsive.git"
+  }
+}
