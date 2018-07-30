@@ -1,0 +1,49 @@
+$vw-font-prefix: '../fonts/' !default;
+
+@at-root {
+  @font-face {
+    font-family: "VWText";
+    src: url('#{$vw-font-prefix}VWText-Regular.eot');
+    src: url('#{$vw-font-prefix}VWText-Regular.eot#iefix') format('embedded-opentype'), 
+         url('#{$vw-font-prefix}VWText-Regular.woff') format('woff'), 
+         url('#{$vw-font-prefix}VWText-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "VWHead";
+    src: url('#{$vw-font-prefix}VWHead-Bold.eot');
+    src: url('#{$vw-font-prefix}VWHead-Bold.eot#iefix') format('embedded-opentype'), 
+         url('#{$vw-font-prefix}VWHead-Bold.woff') format('woff'), 
+         url('#{$vw-font-prefix}VWHead-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "VWHead";
+    src: url('#{$vw-font-prefix}VWHead-ExtraBold.eot');
+    src: url('#{$vw-font-prefix}VWHead-ExtraBold.eot#iefix') format('embedded-opentype'), 
+         url('#{$vw-font-prefix}VWHead-ExtraBold.woff') format('woff'), 
+         url('#{$vw-font-prefix}VWHead-ExtraBold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "VWHead";
+    src: url('#{$vw-font-prefix}VWHead-Regular.eot');
+    src: url('#{$vw-font-prefix}VWHead-Regular.eot#iefix') format('embedded-opentype'), 
+         url('#{$vw-font-prefix}VWHead-Regular.woff') format('woff'), 
+         url('#{$vw-font-prefix}VWHead-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "VWHead";
+    src: url('#{$vw-font-prefix}VWHead-Light.eot');
+    src: url('#{$vw-font-prefix}VWHead-Light.eot#iefix') format('embedded-opentype'), 
+         url('#{$vw-font-prefix}VWHead-Light.woff') format('woff'), 
+         url('#{$vw-font-prefix}VWHead-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+}
